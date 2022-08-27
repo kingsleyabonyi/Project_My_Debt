@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.debt{
+    color: rgb(248, 48, 48)
+}
+img{
+    max-width: 100%;
+}
+.background-footer{
+    background-image:url("Rectangle-2.png");
+}
+@media(min-width:350px){
+    .nav-link{
+        display: flex;
+    }
+    .nav-link ul{
+        display: flex;
+        list-style: none;
+    }
+    .head{
+        display: flex;
+    }
+    .second-debt{
+        display: flex;
+        background: #27A300;
+    }
+    .about-section{
+        display: flex;
+    
+        
+    }
+    .pena{
+        
+    }
+    .about-header{
+        text-align: center;
+    }
+    .achievement{
+        display: flex;
+        background: #FFBA0899;
+    }
+    .morgon{
+        display: flex;
+    }
+    .footer-links{
+        display: block;
+        position: relative;
+        
+    }
+    .footer-1{
+        display: flex;
+    }
+    .footer-2{
+        display: flex;
+        margin-top: 2rem;
+    }
+    .footer-2 ul{
+        display: flex;
+        list-style: none;
+        float: right;
+        justify-content: space-between;
+
+    }
+    .background-footer{
+        background-image:url("Rectangle-2.png");
+    }
+}
