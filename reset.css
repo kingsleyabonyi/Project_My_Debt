@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+}
+main{
+    margin: auto;
+}
+h1{
+    color: red;
+}
+input{
+    display: block;
+}
+button{
+    background: rgb(143, 20, 20);
+    color: white;
+}

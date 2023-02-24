@@ -12,13 +12,77 @@ img{
 .background-footer{
     background-image:url("Rectangle-2.png");
 }
-@media(min-width:350px){
-    .nav-link{
-        display: flex;
+
+.nav-menu{
+    min-height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    font-style: none;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+.nav-anchor{
+    transition: 0.7s ease;
+    text-decoration: none;
+}
+.nav-anchor:hover{
+    color: dodgerblue;
+}
+.nav-bar{
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+    font-style: none;
+    color: white;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: yellow
+}
+
+@media(min-width:700px){
+    /* .nav-link{
+        display: flex; */
     }
-    .nav-link ul{
+    /* .nav-link ul{
         display: flex;
         list-style: none;
+    } */
+.hamburger{
+    display: block;
+}
+.nav-item{
+    margin: 16px 0;
+}
+.nav-menu.active{
+    left: 0;
+}
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 30px;
+        gap: 0;
+        flex-direction: column;
+        background-color:  #262626;
+        width: 100%;
+        text-align: center;
+        transition: 00.3s;
+        color: white;
     }
     .head{
         display: flex;

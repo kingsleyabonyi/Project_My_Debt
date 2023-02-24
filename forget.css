@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    border: 1px solid blue;
+    height: 100vh;
+}
+input{
+    display: block;
+}
+main{
+    margin: auto;
+}
+ /* main .forget{
+    width: 100px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    
+
+} */
+input{
+    display: block;
+
+}
+button{
+    margin-top: 1rem;
+    background: #9D0208;
+    border-radius: 0.5rem;
+    color: white;
+    width: 8rem;
+    padding: 0.5rem;
+}

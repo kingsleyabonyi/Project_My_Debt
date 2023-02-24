@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+input{
+    display: block;
+}
+
+@media(min-width:350px){
+    .enjoy{
+        display: flex;
+    }
+}
